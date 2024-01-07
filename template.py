@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "testSynthesisAndCompression"
+project_name = "textSynthesisAndCompression"
 
 list_of_files = [
     ".github/worflows/.gitkeep",
