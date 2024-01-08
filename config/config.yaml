@@ -11,3 +11,8 @@ data_validation:
   STATUS_FILE:  artifacts/data_validation/status.txt
   ALL_REQUIRED_FILES: ["data","train", "test", "valiation"]
 
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path:  artifacts/data_ingestion/train.json
+  tokenizer_name: google/pegasus-cnn_dailymail
+
