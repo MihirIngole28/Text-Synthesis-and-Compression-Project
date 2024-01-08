@@ -2,7 +2,7 @@ import os
 import urllib.request as request
 import zipfile
 from src.textSynthesisAndCompression.logging import logger
-from src.textSynthesisAndCompression.utils.commom import get_size
+from src.textSynthesisAndCompression.utils.common import get_size
 from src.textSynthesisAndCompression.entity import DataIngestionConfig
 from pathlib import Path
 
